@@ -7,7 +7,7 @@ let clear = document.getElementById("clr");
     // })
     
 function color(){
-    document.body.style.background = input.value;
+    document.body.style.background = (input.value).toLowerCase();
     if(input.value == "black"){
         let head = document.getElementById("heading"). style. color = "white";
         // head.style.font = "white";
